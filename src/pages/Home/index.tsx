@@ -5,10 +5,6 @@ import { setPosts } from "../../actions/postSlice";
 import { Card, Form, Header, PostsList } from "../../components";
 import { createPost } from "../../services/postApi";
 
-// levar a função de buscar os posts para a tela de signUp
-// responsividade
-// loaders
-
 export const Home = () => {
   const dispatch = useDispatch();
   const { posts } = useSelector((state: RootState) => state.posts);

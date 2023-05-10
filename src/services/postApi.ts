@@ -7,7 +7,7 @@ import {
 } from "../schemas";
 
 const postApi = axios.create({
-    baseURL: "http://dev.codeleap.co.uk/careers/",
+    baseURL: "https://dev.codeleap.co.uk/careers/",
 });
 
 async function getPosts() {
