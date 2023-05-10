@@ -42,7 +42,7 @@ yarn dev
 
 This will start the development server and open the project in your default browser.
 
-##Build
+## Build
 To build the project for production, run the following command:
 
 ```shell
