@@ -27,3 +27,36 @@ npm install
 
 # Using Yarn
 yarn install
+```
+
+## Usage
+To start the development server and run the project locally, run the following command:
+
+```shell
+# Using npm
+npm dev
+
+# Using Yarn
+yarn dev
+```
+
+This will start the development server and open the project in your default browser.
+
+##Build
+To build the project for production, run the following command:
+
+```shell
+# Using npm
+npm run build
+
+# Using Yarn
+yarn build
+```
+
+This will generate an optimized production build in the build directory.
+
+For more information on each library and their usage, refer to their official documentation linked above.
+
+Happy coding!
+
+Feel free to modify the content and structure according to your project's specific needs.
