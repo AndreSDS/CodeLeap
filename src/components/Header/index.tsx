@@ -20,7 +20,7 @@ export const Header = ({
     <header
       className={`px-6 flex items-center justify-between h-[70px] w-full bg-[#7695EC] ${addClassName}`}
     >
-      <h1 className="font-bold text-[22px]/[26px] text-white">{title}</h1>
+      <h1 className="font-bold text-[22px]/[26px] text-white truncate ...">{title}</h1>
 
       {isOwner && (
         <div className="flex items-center gap-7 ml-auto">

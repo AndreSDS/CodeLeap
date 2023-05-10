@@ -22,6 +22,7 @@ export const Post = ({ post }: PostProps) => {
   const userLoggedName = JSON.parse(userLogged).username || "";
 
   const isOwner = [userLoggedName, user.username].includes(username);
+  const dateFormated = `${formatDate(created_datetime)} ago`;
 
   const handleEdit = () => {
     setModalInfo({
@@ -72,12 +73,14 @@ export const Post = ({ post }: PostProps) => {
               {username}
             </strong>
             <span className="text-[18px]/[21px] text-[#777]">
-              {formatDate(created_datetime)}
+              {dateFormated}
             </span>
           </div>
 
-          <div className="flex flex-col gap-6">
-            <p>{content}</p>
+          <div className="flex flex-col gap-6 w-full">
+            <p className="flex items-center flex-wrap overflow-hidden">
+              {content}
+            </p>
           </div>
         </div>
       </div>
